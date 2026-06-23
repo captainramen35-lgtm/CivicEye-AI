@@ -101,15 +101,15 @@ Open [http://localhost:3001](http://localhost:3001) in your browser to view the 
 
 ## 🔑 Environment Variables
 
-### Frontend Config (`frontend/.env.local`)
-The local environment settings are pre-configured to connect to the backend server and default Firebase instances:
+### Frontend Config (`frontend/.env.local` — see `frontend/.env.example` for details)
+Configure the frontend to connect to the backend server and your Firebase project:
 ```env
-NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyCbkfR4te9wdwk7lyzpb_Oxdy-7w-yED6A
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=roadrakshak-ai.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=roadrakshak-ai
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=roadrakshak-ai.firebasestorage.app
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=771896505524
-NEXT_PUBLIC_FIREBASE_APP_ID=1:771896505524:web:6effaf431726c0881d93e1
+NEXT_PUBLIC_FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=YOUR_PROJECT_ID.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=YOUR_PROJECT_ID.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
+NEXT_PUBLIC_FIREBASE_APP_ID=YOUR_APP_ID
 NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 ```
 
