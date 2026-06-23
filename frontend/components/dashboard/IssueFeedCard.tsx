@@ -317,7 +317,7 @@ export default function IssueFeedCard({ issue }: IssueFeedCardProps) {
 
           {/* View Details link */}
           <Link
-            href={`/issues/${issue.id}`}
+            href={`/issue/${issue.id}`}
             style={{
               display: "flex",
               alignItems: "center",
