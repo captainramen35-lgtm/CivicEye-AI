@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Python virtual environment and caching
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment files and credentials
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.env*.local
+firebase-service-account.json
+*.pem
+*.key
+service_account.json
+*firebase-adminsdk*.json
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local test database
+backend/db/civiceye_mock_db.json
+civiceye_mock_db.json
